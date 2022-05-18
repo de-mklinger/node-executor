@@ -1,7 +1,14 @@
 {
   "name": "@de-mklinger/executor",
   "version": "0.0.1",
+  "description": "Execute limited parallel tasks with optional priority",
+  "author": "Marc Klinger",
+  "repository": "de-mklinger/node-executor",
   "main": "dist/executor.js",
+  "typings": "dist/executor.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.4.1",
